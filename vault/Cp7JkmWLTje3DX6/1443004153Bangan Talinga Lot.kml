@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<open>1</open>
+<visibility>1</visibility>
+<name><![CDATA[Bangan Talinga Lot]]></name>
+<atom:author><atom:name><![CDATA[Created by Google My Tracks on Android.]]></atom:name></atom:author>
+<Style id="track">
+<LineStyle><color>7f0000ff</color><width>4</width></LineStyle>
+<IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon>
+</IconStyle>
+</Style>
+<Style id="start"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="end"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="statistics"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="waypoint"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Schema id="schema">
+<gx:SimpleArrayField name="power" type="int">
+<displayName><![CDATA[Power (W)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="cadence" type="int">
+<displayName><![CDATA[Cadence (rpm)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="heart_rate" type="int">
+<displayName><![CDATA[Heart rate (bpm)]]></displayName>
+</gx:SimpleArrayField>
+</Schema>
+<Placemark>
+<name><![CDATA[Bangan Talinga Lot (Start)]]></name>
+<description><![CDATA[]]></description>
+<TimeStamp><when>2013-11-27T06:35:01.072Z</when></TimeStamp>
+<styleUrl>#start</styleUrl>
+<Point>
+<coordinates>119.977441,15.362794,35.160240173339844</coordinates>
+</Point>
+</Placemark>
+<Placemark id="tour">
+<name><![CDATA[Bangan Talinga Lot]]></name>
+<description><![CDATA[measurement of lot in question]]></description>
+<styleUrl>#track</styleUrl>
+<ExtendedData>
+<Data name="type"><value><![CDATA[walking]]></value></Data>
+</ExtendedData>
+<gx:MultiTrack>
+<altitudeMode>absolute</altitudeMode>
+<gx:interpolate>1</gx:interpolate>
+<gx:Track>
+<when>2013-11-27T06:35:01.072Z</when>
+<gx:coord>119.977441 15.362794 35.160240173339844</gx:coord>
+<when>2013-11-27T06:35:05.081Z</when>
+<gx:coord>119.977439 15.362779 46.42420196533203</gx:coord>
+<when>2013-11-27T06:35:06.075Z</when>
+<gx:coord>119.97744 15.362781 44.92805099487305</gx:coord>
+<when>2013-11-27T06:35:14.141Z</when>
+<gx:coord>119.97744 15.362786 42.329105377197266</gx:coord>
+<when>2013-11-27T06:35:15.141Z</when>
+<gx:coord>119.977436 15.362814 40.332176208496094</gx:coord>
+<when>2013-11-27T06:35:20.142Z</when>
+<gx:coord>119.977433 15.362845 34.08964920043945</gx:coord>
+<when>2013-11-27T06:35:21.141Z</when>
+<gx:coord>119.977433 15.362843 33.99455261230469</gx:coord>
+<when>2013-11-27T06:35:23.139Z</when>
+<gx:coord>119.977433 15.362839 33.832828521728516</gx:coord>
+<when>2013-11-27T06:35:24.138Z</when>
+<gx:coord>119.977478 15.362883 33.79598617553711</gx:coord>
+<when>2013-11-27T06:35:31.139Z</when>
+<gx:coord>119.977517 15.362958 33.551109313964844</gx:coord>
+<when>2013-11-27T06:35:32.144Z</when>
+<gx:coord>119.97752 15.362975 33.58231735229492</gx:coord>
+<when>2013-11-27T06:35:38.137Z</when>
+<gx:coord>119.977527 15.363057 33.22752380371094</gx:coord>
+<when>2013-11-27T06:35:39.137Z</when>
+<gx:coord>119.977532 15.363071 33.10858917236328</gx:coord>
+<when>2013-11-27T06:35:47.155Z</when>
+<gx:coord>119.977565 15.363153 32.30742645263672</gx:coord>
+<when>2013-11-27T06:35:48.137Z</when>
+<gx:coord>119.977572 15.363171 32.20054244995117</gx:coord>
+<when>2013-11-27T06:35:53.137Z</when>
+<gx:coord>119.977597 15.363241 31.830413818359375</gx:coord>
+<when>2013-11-27T06:35:54.136Z</when>
+<gx:coord>119.977599 15.363258 31.87815284729004</gx:coord>
+<when>2013-11-27T06:36:04.147Z</when>
+<gx:coord>119.977635 15.363316 31.576555252075195</gx:coord>
+<when>2013-11-27T06:36:05.147Z</when>
+<gx:coord>119.977648 15.363348 31.638212203979492</gx:coord>
+<when>2013-11-27T06:36:11.156Z</when>
+<gx:coord>119.977673 15.363434 32.31057357788086</gx:coord>
+<when>2013-11-27T06:36:12.162Z</when>
+<gx:coord>119.977674 15.363448 32.42135238647461</gx:coord>
+<when>2013-11-27T06:36:21.140Z</when>
+<gx:coord>119.977686 15.363534 33.17045211791992</gx:coord>
+<when>2013-11-27T06:36:22.138Z</when>
+<gx:coord>119.977686 15.363543 33.250709533691406</gx:coord>
+<when>2013-11-27T06:36:27.150Z</when>
+<gx:coord>119.977706 15.363616 33.61769485473633</gx:coord>
+<when>2013-11-27T06:36:28.137Z</when>
+<gx:coord>119.977711 15.363632 33.72907638549805</gx:coord>
+<when>2013-11-27T06:36:35.139Z</when>
+<gx:coord>119.97772 15.363719 34.59370040893555</gx:coord>
+<when>2013-11-27T06:36:36.137Z</when>
+<gx:coord>119.977719 15.363729 34.66336441040039</gx:coord>
+<when>2013-11-27T06:36:42.137Z</when>
+<gx:coord>119.977745 15.363809 34.79021072387695</gx:coord>
+<when>2013-11-27T06:36:43.138Z</when>
+<gx:coord>119.977751 15.363821 34.833560943603516</gx:coord>
+<when>2013-11-27T06:36:49.133Z</when>
+<gx:coord>119.977786 15.363892 35.22445297241211</gx:coord>
+<when>2013-11-27T06:36:50.134Z</when>
+<gx:coord>119.977791 15.363903 35.24341583251953</gx:coord>
+<when>2013-11-27T06:36:58.133Z</when>
+<gx:coord>119.977794 15.363989 35.59193420410156</gx:coord>
+<when>2013-11-27T06:36:59.132Z</when>
+<gx:coord>119.977801 15.364006 35.66368865966797</gx:coord>
+<when>2013-11-27T06:37:04.135Z</when>
+<gx:coord>119.977818 15.364085 35.869293212890625</gx:coord>
+<when>2013-11-27T06:37:05.136Z</when>
+<gx:coord>119.977821 15.364104 35.9369010925293</gx:coord>
+<when>2013-11-27T06:37:13.134Z</when>
+<gx:coord>119.977849 15.364189 36.67877197265625</gx:coord>
+<when>2013-11-27T06:37:14.133Z</when>
+<gx:coord>119.977856 15.3642 36.67524719238281</gx:coord>
+<when>2013-11-27T06:37:21.132Z</when>
+<gx:coord>119.9779 15.364277 37.32289123535156</gx:coord>
+<when>2013-11-27T06:37:22.133Z</when>
+<gx:coord>119.977897 15.364287 37.49108123779297</gx:coord>
+<when>2013-11-27T06:37:29.130Z</when>
+<gx:coord>119.977896 15.364372 39.06940460205078</gx:coord>
+<when>2013-11-27T06:37:30.134Z</when>
+<gx:coord>119.977899 15.364382 39.31503677368164</gx:coord>
+<when>2013-11-27T06:37:35.137Z</when>
+<gx:coord>119.97791 15.364465 40.35511016845703</gx:coord>
+<when>2013-11-27T06:37:36.130Z</when>
+<gx:coord>119.97791 15.364482 40.50730895996094</gx:coord>
+<when>2013-11-27T06:37:45.135Z</when>
+<gx:coord>119.977928 15.36457 42.708351135253906</gx:coord>
+<when>2013-11-27T06:37:46.134Z</when>
+<gx:coord>119.977928 15.364587 42.96555709838867</gx:coord>
+<when>2013-11-27T06:37:54.131Z</when>
+<gx:coord>119.977933 15.364671 45.439884185791016</gx:coord>
+<when>2013-11-27T06:37:55.130Z</when>
+<gx:coord>119.977939 15.364687 45.811439514160156</gx:coord>
+<when>2013-11-27T06:38:03.132Z</when>
+<gx:coord>119.977969 15.364771 46.62196731567383</gx:coord>
+<when>2013-11-27T06:38:04.129Z</when>
+<gx:coord>119.977974 15.36478 46.573486328125</gx:coord>
+<when>2013-11-27T06:38:13.133Z</when>
+<gx:coord>119.977911 15.36483 46.49657440185547</gx:coord>
+<when>2013-11-27T06:38:14.135Z</when>
+<gx:coord>119.977897 15.364834 46.534584045410156</gx:coord>
+<when>2013-11-27T06:38:23.134Z</when>
+<gx:coord>119.977875 15.364876 46.63855743408203</gx:coord>
+<when>2013-11-27T06:38:24.134Z</when>
+<gx:coord>119.977874 15.364877 46.5886116027832</gx:coord>
+<when>2013-11-27T06:38:25.133Z</when>
+<gx:coord>119.97787 15.364875 46.52705001831055</gx:coord>
+<when>2013-11-27T06:38:26.446Z</when>
+<gx:coord>119.977865 15.364871 46.516422271728516</gx:coord>
+<when>2013-11-27T06:38:31.133Z</when>
+<gx:coord>119.977855 15.364781 46.70124435424805</gx:coord>
+<when>2013-11-27T06:38:32.132Z</when>
+<gx:coord>119.977854 15.364756 46.61015701293945</gx:coord>
+<when>2013-11-27T06:38:43.141Z</when>
+<gx:coord>119.977839 15.364676 46.84541320800781</gx:coord>
+<when>2013-11-27T06:38:44.134Z</when>
+<gx:coord>119.977839 15.364665 46.83222579956055</gx:coord>
+<when>2013-11-27T06:38:51.132Z</when>
+<gx:coord>119.977827 15.364581 46.63633728027344</gx:coord>
+<when>2013-11-27T06:38:52.133Z</when>
+<gx:coord>119.977824 15.364567 46.584781646728516</gx:coord>
+<when>2013-11-27T06:38:58.132Z</when>
+<gx:coord>119.977791 15.364493 46.43585205078125</gx:coord>
+<when>2013-11-27T06:38:59.134Z</when>
+<gx:coord>119.977785 15.36448 46.35647964477539</gx:coord>
+<when>2013-11-27T06:39:06.131Z</when>
+<gx:coord>119.977755 15.364412 46.636497497558594</gx:coord>
+<when>2013-11-27T06:39:07.140Z</when>
+<gx:coord>119.977748 15.364391 46.668006896972656</gx:coord>
+<when>2013-11-27T06:39:13.131Z</when>
+<gx:coord>119.97773 15.364315 46.905174255371094</gx:coord>
+<when>2013-11-27T06:39:14.134Z</when>
+<gx:coord>119.977728 15.364297 46.95448684692383</gx:coord>
+<when>2013-11-27T06:39:21.133Z</when>
+<gx:coord>119.97771 15.364218 47.260581970214844</gx:coord>
+<when>2013-11-27T06:39:22.135Z</when>
+<gx:coord>119.977703 15.364205 47.32539367675781</gx:coord>
+<when>2013-11-27T06:39:28.133Z</when>
+<gx:coord>119.977671 15.36412 47.57279586791992</gx:coord>
+<when>2013-11-27T06:39:29.131Z</when>
+<gx:coord>119.977662 15.364106 47.56053161621094</gx:coord>
+<when>2013-11-27T06:39:38.131Z</when>
+<gx:coord>119.977645 15.364022 47.26526641845703</gx:coord>
+<when>2013-11-27T06:39:39.132Z</when>
+<gx:coord>119.977642 15.364008 47.27361297607422</gx:coord>
+<when>2013-11-27T06:39:46.135Z</when>
+<gx:coord>119.977626 15.363921 47.38972854614258</gx:coord>
+<when>2013-11-27T06:39:47.144Z</when>
+<gx:coord>119.977623 15.363904 47.41461181640625</gx:coord>
+<when>2013-11-27T06:39:54.130Z</when>
+<gx:coord>119.977597 15.363824 47.06351089477539</gx:coord>
+<when>2013-11-27T06:39:55.130Z</when>
+<gx:coord>119.977593 15.363811 47.01093673706055</gx:coord>
+<when>2013-11-27T06:40:01.276Z</when>
+<gx:coord>119.977575 15.363722 46.259239196777344</gx:coord>
+<when>2013-11-27T06:40:02.133Z</when>
+<gx:coord>119.97757 15.363715 46.13254165649414</gx:coord>
+<when>2013-11-27T06:40:09.130Z</when>
+<gx:coord>119.977532 15.363646 45.94191360473633</gx:coord>
+<when>2013-11-27T06:40:10.133Z</when>
+<gx:coord>119.977524 15.363634 45.848419189453125</gx:coord>
+<when>2013-11-27T06:40:15.132Z</when>
+<gx:coord>119.977488 15.363563 45.90500259399414</gx:coord>
+<when>2013-11-27T06:40:16.133Z</when>
+<gx:coord>119.977485 15.363551 45.93323516845703</gx:coord>
+<when>2013-11-27T06:40:25.132Z</when>
+<gx:coord>119.977459 15.363464 45.85220718383789</gx:coord>
+<when>2013-11-27T06:40:26.213Z</when>
+<gx:coord>119.977456 15.363449 45.83521270751953</gx:coord>
+<when>2013-11-27T06:40:34.132Z</when>
+<gx:coord>119.977426 15.363364 45.2960205078125</gx:coord>
+<when>2013-11-27T06:40:35.134Z</when>
+<gx:coord>119.977422 15.363348 45.290184020996094</gx:coord>
+<when>2013-11-27T06:40:42.132Z</when>
+<gx:coord>119.977395 15.363262 45.28268051147461</gx:coord>
+<when>2013-11-27T06:40:43.131Z</when>
+<gx:coord>119.97739 15.363254 45.36507797241211</gx:coord>
+<when>2013-11-27T06:40:50.133Z</when>
+<gx:coord>119.977362 15.363177 45.59585189819336</gx:coord>
+<when>2013-11-27T06:40:51.133Z</when>
+<gx:coord>119.977356 15.363164 45.62373733520508</gx:coord>
+<when>2013-11-27T06:40:58.133Z</when>
+<gx:coord>119.977341 15.363084 45.94889831542969</gx:coord>
+<when>2013-11-27T06:40:59.132Z</when>
+<gx:coord>119.977339 15.36307 45.97953796386719</gx:coord>
+<when>2013-11-27T06:41:05.600Z</when>
+<gx:coord>119.977337 15.362993 45.595298767089844</gx:coord>
+<when>2013-11-27T06:41:06.600Z</when>
+<gx:coord>119.977345 15.362975 45.59470748901367</gx:coord>
+<when>2013-11-27T06:41:10.600Z</when>
+<gx:coord>119.977403 15.362924 45.62120056152344</gx:coord>
+<when>2013-11-27T06:41:11.601Z</when>
+<gx:coord>119.977418 15.362915 45.58050537109375</gx:coord>
+<when>2013-11-27T06:41:19.601Z</when>
+<gx:coord>119.97746 15.362841 45.46915817260742</gx:coord>
+<when>2013-11-27T06:41:20.597Z</when>
+<gx:coord>119.977461 15.362826 45.435646057128906</gx:coord>
+<when>2013-11-27T06:41:41.480Z</when>
+<gx:coord>119.977473 15.362776 44.998477935791016</gx:coord>
+<when>2013-11-27T06:41:42.482Z</when>
+<gx:coord>119.977469 15.362777 45.00031280517578</gx:coord>
+<when>2013-11-27T06:41:43.522Z</when>
+<gx:coord>119.977466 15.362779 45.00173568725586</gx:coord>
+<when>2013-11-27T06:41:44.507Z</when>
+<gx:coord>119.977463 15.36278 44.99513626098633</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+</gx:MultiTrack>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bangan Talinga Lot (End)]]></name>
+<description><![CDATA[Created by Google My Tracks on Android.
+
+Name: Bangan Talinga Lot
+Activity type: walking
+Description: measurement of lot in question
+Total distance: 0.50 km (0.3 mi)
+Total time: 06:44
+Moving time: 06:28
+Average speed: 4.44 km/h (2.8 mi/h)
+Average moving speed: 4.62 km/h (2.9 mi/h)
+Max speed: 5.56 km/h (3.5 mi/h)
+Average pace: 13:31 min/km (21:46 min/mi)
+Average moving pace: 12:58 min/km (20:53 min/mi)
+Fastest pace: 10:47 min/km (17:21 min/mi)
+Max elevation: 47 m (154 ft)
+Min elevation: 33 m (109 ft)
+Elevation gain: 14 m (45 ft)
+Max grade: 9 %
+Min grade: -1 %
+Recorded: 11/27/2013 2:35PM
+]]></description>
+<TimeStamp><when>2013-11-27T06:41:44.507Z</when></TimeStamp>
+<styleUrl>#end</styleUrl>
+<Point>
+<coordinates>119.977463,15.36278,44.99513626098633</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
